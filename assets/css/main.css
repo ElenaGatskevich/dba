@@ -35,6 +35,7 @@
     letter-spacing: 0.01em;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .body-l {
@@ -74,12 +75,14 @@
     line-height: clamp(1.35rem, 1.2818rem + 0.2424vw, 1.5rem);
     letter-spacing: 0.01em;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .h3 {
     font-size: clamp(1.5rem, 1.3864rem + 0.404vw, 1.75rem);
     line-height: clamp(1.8rem, 1.6636rem + 0.4848vw, 2.1rem);
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .body-xs {
@@ -115,6 +118,7 @@
     text-align: center;
     bottom: clamp(5.75rem, -0.2159rem + 21.2121vw, 18.875rem);
     z-index: 1;
+    font-weight: 400;
 }
 
 .first__block img {
@@ -321,7 +325,12 @@
 .info-block-1 {
     position: relative;
 }
-
+.info-block-1{
+    background: url("../img/Ellipse1.png")  right -1000px top -410px no-repeat;
+}
+.back{
+    background: url("../img/Ellipse2.png") right -600px top -400px no-repeat;
+}
 .info-block-1__row {
     display: flex;
     gap: 22px;
@@ -992,6 +1001,9 @@
 @media (max-width:500px) {
     .blog__btn {
         width: 100%;
+    }
+    .articles-item__img{
+min-width: 100%;
     }
 }
 
